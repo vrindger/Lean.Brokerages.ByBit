@@ -234,7 +234,7 @@ public partial class BybitBrokerage : BaseWebsocketsBrokerage, IDataQueueHandler
             return;
         }
 
-        ValidateSubscription();
+//        ValidateSubscription();
 
         _privateWebSocketUrl = $"{baseWssUrl}/v5/private";
         var basePublicWebSocketUrl = $"{baseWssUrl}/v5/public";
